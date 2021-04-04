@@ -49,7 +49,7 @@
     ],
     "uniqCompNum": 87,
     "versionPublish": "5.3.0",
-    "favicon": "@PROJECT_PATH@/assets/images/depositphotos-106298970-s-2019-128x128-1.png",
+    "favicon": false,
     "": "on",
     "robotsSwitcher": true,
     "sitemapSwitcher": false,
