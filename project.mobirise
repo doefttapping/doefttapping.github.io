@@ -52,16 +52,17 @@
     "favicon": "@PROJECT_PATH@/assets/images/depositphotos-106298970-s-2019.ico",
     "": "on",
     "robotsSwitcher": true,
-    "sitemapSwitcher": false,
-    "sitemapSwitcherAuto": true,
-    "siteUrl": false,
-    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
+    "sitemapSwitcher": true,
+    "sitemapSwitcherAuto": "on",
+    "siteUrl": "https://doefttapping.com/sitemap.xml",
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\nSitemap: https://doefttapping.com\n",
     "screenshot": "screenshot.png",
     "imageResize": true,
     "mbrsiteDomain": "fhzv09m19t",
     "cookiesAlert": false,
     "gdpr": false,
-    "publishChangesOnly": true
+    "publishChangesOnly": false,
+    "canonical-url": false
   },
   "pages": {
     "WhoCanIHelp.html": {
@@ -2109,7 +2110,7 @@
         "main": true,
         "title": "Do EFT tapping",
         "meta_descr": "Offering online EFT/tapping sessions to people all over the world; guiding them through their traumas, negative beliefs, challenging emotions, physical pain, and other sensations along their journey of healing.",
-        "header_custom": "",
+        "header_custom": "<meta name=\"google-site-verification\" content=\"ps9zEUpcPyGTl6P6gTZEOFW-nnNJhxCTtLGfBX1oROU\" />",
         "footer_custom": "",
         "html_before": "",
         "meta_image": "@PROJECT_PATH@/assets/images/dolgopolova-21-736x491.jpg"
