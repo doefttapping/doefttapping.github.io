@@ -55,14 +55,14 @@
     "sitemapSwitcher": true,
     "sitemapSwitcherAuto": "on",
     "siteUrl": "https://doefttapping.com/sitemap.xml",
-    "robotsText": "User-agent: *\nDisallow: /cgi-bin\nSitemap: https://doefttapping.com\n",
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\nSitemap: https://doefttapping.com/sitemap.xml\n\n",
     "screenshot": "screenshot.png",
     "imageResize": true,
     "mbrsiteDomain": "fhzv09m19t",
     "cookiesAlert": false,
     "gdpr": false,
     "publishChangesOnly": false,
-    "canonical-url": false
+    "canonical-url": "https://doefttapping.com"
   },
   "pages": {
     "WhoCanIHelp.html": {
