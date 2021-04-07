@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "DoEFTtapping.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "lifestyleamp",
       "title": "LifestyleAMP",
@@ -61,7 +61,7 @@
     "mbrsiteDomain": "fhzv09m19t",
     "cookiesAlert": false,
     "gdpr": false,
-    "canonical-url": false
+    "publishChangesOnly": true
   },
   "pages": {
     "WhoCanIHelp.html": {
@@ -2104,7 +2104,7 @@
         }
       ]
     },
-    "DoEFTtapping.html": {
+    "index.html": {
       "settings": {
         "main": true,
         "title": "Do EFT tapping",
