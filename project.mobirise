@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "Testimonials.html",
+    "currentPage": "freeconsultation.html",
     "theme": {
       "name": "lifestyleamp",
       "title": "LifestyleAMP",
@@ -47,7 +47,7 @@
         "url": "https://fonts.googleapis.com/css?family=Josefin+Sans:100,200,300,400,500,600,700,100i,200i,300i,400i,500i,600i,700i"
       }
     ],
-    "uniqCompNum": 122,
+    "uniqCompNum": 123,
     "versionPublish": "5.4.1",
     "favicon": "@PROJECT_PATH@/assets/images/untitled-design-4-128x128.png",
     "": "on",
@@ -3409,6 +3409,90 @@
           "_anchor": "contacts02-3d",
           "_isUserblock": true,
           "_cid": "sMUJrc935g",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            ".container": {
+              "max-width": "1200px"
+            },
+            ".field": {
+              "padding": "0"
+            },
+            ".dragArea": {
+              "border-bottom": "1px solid @borderColor !important",
+              "margin": "0"
+            },
+            "@media (min-width: 992px)": {
+              ".col1": {
+                "padding-right": "4rem"
+              }
+            },
+            ".field-input": {
+              "color": "@labelsColor !important",
+              "font-size": "1.2rem",
+              "font-weight": "300",
+              "border": "none",
+              "padding": "0",
+              "background-color": "transparent"
+            },
+            "input::-webkit-input-placeholder": {
+              "color": "fade(@labelsColor, 30%)"
+            },
+            "input::-moz-placeholder": {
+              "color": "fade(@labelsColor, 30%)"
+            },
+            ".form-wrap": {
+              ".mbr-form": {
+                "width": "100%"
+              },
+              ".btn": {
+                "margin": "0",
+                "font-weight": "400"
+              }
+            },
+            ".form-block": {
+              "padding": "0",
+              "width": "100%"
+            },
+            ".mbr-section-btn": {
+              "margin": "0"
+            },
+            ".btn-black-outline": {
+              "border": "none",
+              "&:hover, &:active": {
+                "background": "transparent!important",
+                "color": "inherit!important"
+              }
+            },
+            ".group-title": {
+              "color": "#ffffff"
+            },
+            ".mbr-text": {
+              "color": "#ffffff"
+            },
+            ".list1": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "footer02",
+          "_sourceTheme": "lifestyleamp",
+          "_customHTML": "<section class=\"footer02\" group=\"Footers\" plugins=\"amp-main, amp-form, amp-mustache\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline=\"\" name=\"list1Items2\" title=\"List Items 1\" min=\"0\" max=\"10\" value=\"1\">\n        <input type=\"range\" inline=\"\" name=\"list1Items3\" title=\"List Items 2\" min=\"0\" max=\"10\" value=\"1\">\n        <input type=\"range\" inline=\"\" name=\"list1Items4\" title=\"List Items 3\" min=\"0\" max=\"10\" value=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showmainTitle\">\n        <input type=\"checkbox\" title=\"Col Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Form\" name=\"showForm\">\n        <header>Form</header>\n        <input type=\"color\" title=\"Border\" name=\"borderColor\" value=\"#cccccc\">\n        <input type=\"color\" title=\"Form Text Color\" name=\"labelsColor\" value=\"#ffffff\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"\">\n            <input type=\"color\" title=\"Background Color\" value=\"#2e4e43\" selected=\"\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\">\n\n            <div class=\"mbr-col-lg-6 mbr-col-md-12 mbr-col-sm-12 md-pb col1\">\n\n                <h3 class=\"mbr-text mbr-semibold mbr-fonts-style mbr-pb-3 mbr-black group-title\" mbr-if=\"showmainTitle\" mbr-theme-style=\"display-7\" data-app-selector=\".group-title\">Offering online EFT/tapping sessions to people all over the world and guiding them through their traumas, negative beliefs, challenging emotions, physical pain, and other sensations to the point where they can be healed</h3>\n\n                <p data-app-selector=\".mbr-text\" class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\">Offering online EFT/tapping sessions to people all over the world; guiding them through their traumas, negative beliefs, challenging emotions, physical pain, and other sensations along their journey of healing.&nbsp;</p>\n\n                <div class=\"form-wrap mbr-pt-4 mbr-flex mbr-jc-c\" mbr-if=\"showForm\">\n                    <div class=\"form-block\" mbr-form=\"\">\n                        <!---Formbuilder Form--->\n                        <form action=\"\" action-xhr=\"\" name=\"Mobirise Form\" method=\"POST\" class=\"mbr-form\">\n                            <div class=\"mbr-row\">\n                                <div submit-success=\"\" class=\"mbr-col-lg-12 mbr-col-md-12 mbr-col-sm-12\">\n                                    <template data-form-alert=\"\" type=\"amp-mustache\">Subscription successful!</template>\n                                </div>\n                                <div submit-error=\"\" class=\"mbr-col-lg-12 mbr-col-md-12 mbr-col-sm-12\">\n                                    <template data-form-alert=\"\" type=\"amp-mustache\">Subscription failed! {{error}}</template>\n                                </div>\n                            </div>\n                            <div class=\"dragArea mbr-row\">\n                                <div data-for=\"form[data][0][1]\" class=\"mbr-col field mbr-col-sm-12\">\n                                    <input type=\"hidden\" name=\"form[data][0][0]\" value=\"E-mail\">\n                                    <input type=\"email\" name=\"form[data][0][1]\" placeholder=\"E-mail\" data-form-field=\"E-mail\" mbr-theme-style=\"display-7\" required=\"required\" class=\"field-input\">\n                                </div>\n                                <div data-for=\"\" mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrBtnLink,-mbrBtnAdd\" class=\"mbr-col-auto mbr-section-btn align-right field mbr-col-sm-12\">\n                                    <a type=\"submit\" class=\"btn btn-form btn-black-outline\">SUBSCRIBE</a>\n                                </div>\n                            </div>\n                        </form><!---Formbuilder Form--->\n                    </div>\n                </div>\n\n\n            </div>\n\n\n\n\n\n\n\n            <div class=\"mbr-col-lg-2 mbr-col-md-4 mbr-col-sm-12 md-pb\" mbr-if=\"list1Items2!=0\">\n\n                <h3 class=\"mbr-text mbr-bold mbr-fonts-style mbr-pb-1 mbr-black group-title\" mbr-theme-style=\"display-4\" data-app-selector=\".group-title\" mbr-if=\"showTitle\"><a href=\"index.html#top\" class=\"text-success\">HOME</a></h3>\n\n                <div class=\"mbr-row items mbr-white\" mbr-list=\"\" mbr-list-grow=\"list1Items2\">\n                    <div class=\"list-item mbr-pt-1 mbr-col-lg-12 mbr-col-md-12 mbr-col-sm-12\">\n\n                        <h5 class=\"mbr-fonts-style mbr-gray  list1\" mbr-theme-style=\"display-4\" data-app-selector=\".list1\"><b><a href=\"index.html#content03-7\" class=\"text-success\">ABOUT EFT</a></b></h5>\n                    </div>\n\n\n\n                    \n                    \n                    \n                    \n\n\n                </div>\n\n\n            </div>\n\n\n\n\n\n\n\n\n            <div class=\"mbr-col-lg-2 mbr-col-md-4 mbr-col-sm-12 md-pb\" mbr-if=\"list1Items3!=0\">\n\n                <h3 class=\"mbr-text mbr-bold mbr-fonts-style mbr-pb-1 mbr-black group-title\" mbr-theme-style=\"display-4\" data-app-selector=\".group-title\" mbr-if=\"showTitle\"><a href=\"page2.html#top\" class=\"text-success\">WHO CAN I HELP</a></h3>\n\n                <div class=\"mbr-row items mbr-white\" mbr-list=\"\" mbr-list-grow=\"list1Items3\">\n                    <div class=\"list-item mbr-pt-1 mbr-col-lg-12 mbr-col-md-12 mbr-col-sm-12\">\n\n                        <h5 class=\"mbr-fonts-style mbr-gray  list1\" mbr-theme-style=\"display-4\" data-app-selector=\".list1\"><b><a href=\"page3.html#top\" class=\"text-success\">TESTIMONIALS</a></b></h5>\n                    </div>\n\n\n\n                    \n                    \n                    \n\n                </div>\n\n\n            </div>\n\n            <div class=\"mbr-col-lg-2 mbr-col-md-4 mbr-col-sm-12 md-pb\" mbr-if=\"list1Items4!=0\">\n\n                <h3 class=\"mbr-text mbr-bold mbr-fonts-style mbr-pb-1 mbr-black group-title\" mbr-theme-style=\"display-4\" data-app-selector=\".group-title\" mbr-if=\"showTitle\"><a href=\"page4.html#top\" class=\"text-success\">MY STORY</a></h3>\n\n                <div class=\"mbr-row items mbr-white\" mbr-list=\"\" mbr-list-grow=\"list1Items4\">\n                    <div class=\"list-item mbr-pt-1 mbr-col-lg-12 mbr-col-md-12 mbr-col-sm-12\">\n\n                        <h5 class=\"mbr-fonts-style mbr-gray  list1\" mbr-theme-style=\"display-4\" data-app-selector=\".list1\"><b><a href=\"index.html#form01-2\">FREE CONSULTATION</a></b></h5>\n                    </div>\n\n\n\n\n\n\n                    \n                    \n                </div>\n\n\n            </div>\n\n\n\n        </div>\n    </div>\n\n</section>",
+          "_anchor": "footer02-3e",
+          "_isUserblock": true,
+          "_cid": "sMUNDCrbz8",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
